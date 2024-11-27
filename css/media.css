@@ -1,0 +1,639 @@
+/* 1900px media quaries */
+
+@media screen and (max-width:2644px) {
+    /* banner start */
+
+   .banner .container .row img{
+       width: 30%;
+       position: absolute;
+       top: 5% !important;   
+   }   
+  
+}
+
+/* 1200px media quaries */
+
+@media screen and (max-width:1200px) {
+     /* banner start */
+
+    .banner .container .row img{
+        width: 30%;
+        position: absolute;
+        top: 5% !important;   
+    }   
+   
+}
+
+/* 1030px media quaries */
+
+@media screen and (max-width:1030px) {
+    /* banner start */
+
+   .banner .container .row img{
+       width: 35%;
+       position: absolute;
+       top: 3% !important;   
+    } 
+
+    /* history start */
+
+    #history .container .row .card-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       
+        .card{
+            width: 48% !important;
+        }
+    }
+  
+}
+
+/* 991px media quaries */
+
+@media screen and (max-width:991px) {
+
+    .navbar .container .row .account #menu-btn{
+        display: block !important;
+    }
+
+    .navbar {
+        background-color: rgb(238, 255, 0);
+        width: 100% !important;
+        left: 0px;
+        right: 0px;
+    }
+
+    .navbar .container .row .menu{
+        display: block;
+        position: absolute;
+        top: 120px;
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0, 0, 0, 0.699)50% ),
+        url(../img/firework.jpg)100% ;
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(40px);
+        left: 0px;
+        right: 0px;
+        padding: 30px 30px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all 0.5s ease;
+        z-index: 500;
+
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
+        li{
+            margin-top: 10px;
+            border-bottom: 1px solid white;
+            padding-bottom: 5px;
+            
+            a{
+                color: #fff;
+            }
+        }
+    }
+
+    .navbar .container .row .menu li a:hover{
+        color: yellowgreen !important;
+        transition: all 0.5s ease;
+        text-decoration: none !important;
+        
+    }
+
+    /* banner start */
+
+    .banner .container .row img{
+        width: 40%;
+        position: absolute;
+        top: 5% !important;   
+    }    
+
+    /* history start */
+
+    #history .container .row .card-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .card{
+            width: 48%;
+        }
+    }
+
+    /* footer start */
+
+    footer .container .row .box-area{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+       flex-wrap: wrap;
+        gap: 20px;
+
+       .box{
+         width: 48% !important;
+         /* border: 1px solid black; */
+
+            img{
+                width: 50%;
+            }
+       }
+    }
+
+}
+
+/* 800px media quaries */
+
+@media screen and (max-width:800px) {
+        
+    /* banner start */
+
+    .banner .container .row img{
+        width: 40% !important;
+        position: absolute;
+        top: 5% !important;   
+    }    
+}
+
+
+
+/* 767px media quaries */
+
+@media screen and (max-width:767px) {
+        
+    /* banner start */
+
+    .banner .container .row img{
+        width: 40% !important;
+        position: absolute;
+        top: 5% !important;   
+    }    
+
+
+    /* about start */
+    #about .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .abt-img{
+            width: 47% !important;
+        }
+
+        .abt-content{
+            width: 47% !important;
+            text-align: center;
+
+            .para{
+                text-align: center;
+                line-height: 25px !important;
+                margin: 20px 0 !important;
+                margin-bottom: 40px !important;
+            }
+        }
+    }
+
+    
+    /* wish start */
+
+    .wish .container .row{
+        display: flex;
+        flex-wrap: wrap !important;
+        width: 100%;
+
+        .wish-content{
+            width: 47% !important;
+            text-align: center !important;
+            margin: 10px 0 30px 0 !important;
+
+            .para{
+                line-height: 25px !important;
+            }
+        }
+
+        .wish-img{
+            width: 47% !important;            
+            
+            img{
+                width: 100% !important;
+            }
+        }
+    }
+
+    /* product start */
+
+    #product .container .row .card-area{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        .card{
+            height: auto !important;
+            width: 40% !important;
+
+            img{
+                width: 100% !important;
+            }
+        }
+    }
+
+    /* contact start */
+
+    #contact .container .row{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .info{
+            width: 70% !important;
+        }
+
+        form{
+            width: 70% !important;
+        }
+    }
+
+    /* footer start */
+
+    footer .container .row .box-area{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       flex-wrap: wrap;
+        gap: 20px;
+
+       .box{
+            img{
+                width: 50%;
+            }
+        width: 40%;
+       }
+    }
+
+    .rights h3{
+        font-size: 18px !important;
+    }
+
+}
+
+/* 730px media quaries */
+
+@media screen and (max-width:730px) {
+        
+    /* banner start */
+
+    .banner .container .row img{
+        width: 40% !important;
+        position: absolute;
+        top: 5% !important;   
+    }    
+
+
+}
+
+/* 590px media quaries */
+
+@media screen and (max-width:590px) {
+
+   
+    /* navbar start */
+
+    .navbar .container .row .account {
+
+        .fa-heart{
+            display: none !important;
+        }
+        .fa-magnifying-glass{
+            display: none !important;
+        }
+        .fa-cart-shopping{
+            display: none !important;
+        }
+    }
+
+    /* footer start */
+
+    footer .container .row .box-area{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-wrap: wrap;
+        gap: 20px;
+
+       .box{
+            img{
+                width: 50%;
+            }
+        width: 80% !important;
+       }
+    }
+}
+
+
+/* 576px media quaries */
+
+@media screen and (max-width:576px) {
+
+    /* navbar start */
+
+    .navbar .container .row .account i{
+        font-size: 20px !important;
+    }
+    
+    /* banner start */
+    .banner{
+        height: 500px;
+    }
+
+    .banner .container .row img{
+        width: 60% !important;  
+        position: absolute !important;
+        margin-top: 3% !important; 
+    }
+
+
+    /* about start */
+
+    #about .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .abt-img{
+            width: 80% !important;
+        }
+
+        .abt-content{
+            width: 80% !important;
+            text-align: center;
+
+            .para{
+                text-align: center;
+            }
+        }
+    }
+
+    /* wish start */
+
+    .wish {
+        margin-top: 30px !important;
+    }
+
+    .wish .container .row{
+        display: flex;
+        flex-wrap: wrap !important;
+        width: 100%;
+
+        .wish-content{
+            width: 80% !important;
+            order: 2;
+            text-align: center !important;
+        }
+
+        .wish-img{
+            width: 80% !important;          
+            
+            img{
+                width: 100% !important;
+            }
+        }
+    }
+
+    /* offers start */
+
+            
+    #offers .container .row .box-area .box{
+        width: 80px;
+        padding: 10px !important;
+    }
+
+    #offers .container .row .box-area .box .count{
+        font-size: 20px;
+    }
+
+    #offers .container .row .box-area .box span{
+        font-size: 1rem;
+       
+    }
+
+    /* history start */
+
+    #history .container .row .card-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       
+        .card{
+            width: 48% !important;
+        }
+    }
+
+    /* footer start */
+
+    footer .container .row .box-area{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-wrap: wrap;
+        gap: 20px;
+
+       .box{
+            img{
+                width: 50%;
+            }
+        width: 80% !important;
+       }
+    }
+
+    .rights h3{
+        font-size: 16px !important;
+    }
+
+    /* uparrow start */
+
+    .uparrow{
+        position: fixed;
+        z-index: 1500;
+        bottom: 10px;
+        right: 10px;
+        height: 40px !important;
+        width: 40px !important;
+        background-color: yellow;
+    
+        .fa-up{
+            width: 100%;
+            cursor: pointer;
+            font-size: 20px !important;
+            font-weight: bold;
+            color: orange;
+        }
+    }
+
+}
+
+/* 530px media quaries */
+
+@media screen and (max-width:530px) {
+
+    /* history start */
+
+    #history .container .row .card-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+        .card{
+            width: 70% !important;
+        }
+    }
+
+}
+
+
+
+
+
+/* 480px media quaries */
+
+@media screen and (max-width:480px) {
+    header .navbar{
+        background-color: rgb(255, 238, 0);
+    }
+
+    .navbar .container .row .account .main-btn{
+        display: none !important;
+    }
+
+    .navbar .container .row .account i{
+        display: none !important;
+    }
+    
+    /* banner start */
+
+    .banner{
+        height: 450px;
+    }
+
+    
+
+    .banner .container .row img{
+        width: 70%;
+        position: absolute;
+        top: 0% !important;   
+    }   
+
+    
+    /* offers start */
+
+    #offers .container .row .box-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+            
+    #offers .container .row .box-area .box{
+        width: 40%;
+        padding: 10px !important;
+    }
+
+    #offers .container .row .box-area .box .count{
+        font-size: 20px;
+    }
+
+    #offers .container .row .box-area .box span{
+        font-size: 1rem;
+       
+    }
+
+    /* product start */
+
+    #product .container .row .card-area{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    
+        .card{
+            width: 70% !important;
+            padding: 30px 10px !important;
+        }
+    }
+
+    /* crackers start */
+
+    
+    .swiper-style1 .slide1{
+        box-shadow: none !important;
+        border: 1px solid rgb(219, 161, 0);
+    }
+
+    /* history start */
+
+    #history .container .row .card-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+        .card{
+            width: 70% !important;
+        }
+    }
+
+    /* safety start */
+
+    #safety .container .row .para{
+        width: 80% !important;
+       
+    }
+
+    /* contact start */
+
+    #contact .container .row{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+        form{
+            width: 80% !important;
+        }
+    }
+
+    /* footer start */
+
+    footer .container .row .box-area{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px !important;
+
+       .box{
+            width: 100% !important;
+            img{
+                width: 50% !important;
+            }
+       }
+    }
+
+    footer .container .row .box-area .box span{
+        font-size: 14px !important;
+        color: #fff;
+    }
+
+    .rights h3{
+        font-size: 14px !important;
+    }
+
+    .chat{
+        display: none !important;
+    }
+}
+
